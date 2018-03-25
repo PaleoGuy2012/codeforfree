@@ -12,13 +12,19 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 520px;
+  height: 420px;
   box-shadow: 0px 3px 8px #2a2a2a;
+
 }
+
+
+
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
+
+
 
 .frosty {
   background: rgba(0, 0, 0, 0.25);
@@ -37,6 +43,63 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-weight: 200;
 }
 
+h3 {
+  color: white;
+}
+
+
 .btn {
   border-radius: 0;
 }
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  color: white ;
+}
+
+.ruby {
+  text-align: center;
+  width: 100%;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  color: rgba(36, 32, 33, 0.9);
+}
+
+hr.style-one {
+border: 0;
+height: 1px;
+background: #333;
+background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+
+body {
+  background: image_url('bg.jpg');
+font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.booyah-box {
+  padding-top: 1%;
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+}
+
+.clear {
+  clear: both;
+}
+

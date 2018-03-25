@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Codeforfree</title>
+    <title>Codebasket</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,12 +9,13 @@
   </head>
 
   <body>
+    <div id="flex-content-container"> 
     <nav class="navbar navbar-toggleable-md navbar-light" style="background-color: #e3f2fd;">
     
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">CodeForFree</a>
+      <a class="navbar-brand" href="/">CodeBasket</a>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
@@ -29,9 +30,11 @@
           Languages
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">HTML</a>
+          <a class="dropdown-item" href="#">CSS</a>
+          <a class="dropdown-item" href="#">Javascript</a>
           <a class="dropdown-item" href="#">Ruby</a>
           <a class="dropdown-item" href="#">Rails</a>
-          <a class="dropdown-item" href="#">Javascript</a>
         </div>
       </li>
     </ul>
@@ -39,6 +42,15 @@
 </nav>
 
     <%= yield %>
-  </body>
+  
 
+
+   <div id="footer">
+      <div class="container">
+        <b>Footer Here</b>
+        <br />
+        <%= link_to 'Link', '#' %>
+      </div>
+    </div>
+  </body>
 </html>
